@@ -1,27 +1,91 @@
 body{
-    background-color: beige;
-    color: black;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-.card-body{
-    background-color: bisque;
-    color: dimgrey;
-    border-top: 1px solid black;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
     padding: 10px;
 }
 
-footer {
-    background-color: aliceblue;
-    color: #fff;
-    text-align: center; 
-    padding: 50px 0; 
+
+ /* ------------- Navbar -----------*/
+ 
+.container-fluid{
+    background-color: pink;
+    
 }
 
-  
-  img{
+.navbar-toggler {
+    box-shadow: none;
+}
+
+.navbar{
+    font-size: 25px;
+    color:rgb(2, 2, 2);
+    border-bottom: 2px;
+    padding: 0%;
+}
+
+.navbar-nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    gap: 150px
+}
+
+.navbar-brand{
+     color: rgb(8, 8, 8);
+     font-weight: bold;
+     font-size: 24px;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+ /* ------------- Cards -----------*/
+
+ .container{
+   margin-top: 50px;
+ }
+
+ /* ------------- Formulario  -----------*/
+
+.formulario{
+    display: flex;
+    justify-content: space-between; 
+    gap: 0px;
+    text-align: center;
+    background-color: pink;
+    margin: 50px 150px 5px 150px
+}
+
+/* ------------- Footer  ----------*/
+
+footer{
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes_sociales{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redes_sociales i {
+    margin: 5px 10px;
+    color: black
+}
+.fa-facebook{
+    color: black;
+}
+
+/* ------------- Footer  ----------*/
+
+/* -------------Logo ----------*/
+
+.logo{
     max-width: 20%;
     height: auto;
     }
-    
+
+ /* -------------Logo -----------*/
