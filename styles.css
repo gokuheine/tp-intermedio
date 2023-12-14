@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-body{
+    background-color: bisque;
+    color: dimgrey;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    background-color: aliceblue;
+    color: #fff;
+    text-align: center; 
+    padding: 50px 0; 
+}
+
+
