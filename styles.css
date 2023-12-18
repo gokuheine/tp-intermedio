@@ -46,6 +46,10 @@ body{
  .container{
    margin-top: 50px;
  }
+ .card{
+    text-align: justify;
+     }
+
 
  /* ------------- Formulario  -----------*/
 
@@ -83,9 +87,30 @@ footer{
 
 /* -------------Logo ----------*/
 
-.logo{
-    max-width: 20%;
+img.logo{
+    max-width: 500%;
     height: auto;
     }
 
  /* -------------Logo -----------*/
+
+ 
+ /*--------Botones---------------*/
+
+ .btn {
+        background-color: #592E0B; 
+        color: white; 
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 10px;
+        cursor: pointer; 
+        border: none;
+        border-radius: 5px; 
+        box-shadow: 4px 4px 5px #888888 
+    }
+    
+ /*--------Botones---------------*/    
+ 
